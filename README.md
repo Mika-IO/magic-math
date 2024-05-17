@@ -1,2 +1,3 @@
 # magic-math
-Useful math funcions Python library
+
+Useful Math functions Python library
