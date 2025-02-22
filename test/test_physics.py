@@ -1,4 +1,4 @@
-from src.physics import rectilinear_motion
+from magic_math.physics import rectilinear_motion
 
 def test_rectilinear_motion_final_position():
     assert rectilinear_motion(initial_position=0, velocity=10, time=5) == 50

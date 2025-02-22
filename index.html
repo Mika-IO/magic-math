@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila Universitária</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-slate-800 text-white  shadow-lg">
+        <div class="container mx-auto flex items-center justify-between py-8">
+            <div>
+                <h1 class="text-2xl font-bold"><i class="fas fa-infinity mr-2"></i> Matemática Universitária</h1>
+                <p class="text-sm opacity-75">Recursos para Graduação e Pesquisa</p>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto mt-5 px-4 py-8">
+        <section class="mb-12 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold text-slate-800 mb-4">
+                <i class="fas fa-compass mr-2"></i> Navegação
+            </h2>
+        
+            <p class="text-slate-800 mb-4">
+                Acesse rapidamente as principais áreas da matemática:
+            </p>
+        
+            <ul class="space-y-3 text-blue-600">
+                <li><a href="#aritmetica" class="hover:underline"><i class="fas fa-divide mr-2"></i>Aritmética</a></li>
+                <li><a href="#algebra" class="hover:underline"><i class="fas fa-cube mr-2"></i>Álgebra</a></li>
+                <li><a href="#geometria" class="hover:underline"><i class="fas fa-drafting-compass mr-2"></i>Geometria</a></li>
+                <li><a href="#probabilidade" class="hover:underline"><i class="fas fa-dice mr-2"></i>Probabilidade</a></li>
+                <li><a href="#estatistica" class="hover:underline"><i class="fas fa-chart-pie mr-2"></i>Estatística</a></li>
+                <li><a href="#funcoes" class="hover:underline"><i class="fas fa-project-diagram mr-2"></i>Funções</a></li>
+                <li><a href="#calculo-diferencial-integral" class="hover:underline"><i class="fas fa-square-root-alt mr-2"></i>Cálculo Diferencial e Integral</a></li>
+                <li><a href="#calculo-vetorial-tensorial" class="hover:underline"><i class="fas fa-vector-square mr-2"></i>Cálculo Vetorial e Tensorial</a></li>
+                <li><a href="#calculo-numerico" class="hover:underline"><i class="fas fa-calculator mr-2"></i>Cálculo Numérico</a></li>
+                <li><a href="#teoria-de-grupos" class="hover:underline"><i class="fas fa-object-group mr-2"></i>Teoria de Grupos</a></li>
+                <li><a href="#teoria-aritmetica-numeros" class="hover:underline"><i class="fas fa-sort-numeric-up mr-2"></i>Teoria Aritmética dos Números</a></li>
+                <li><a href="#fisica" class="hover:underline"><i class="fas fa-atom mr-2"></i>Física</a></li>
+                <li><a href="#ssp" class="hover:underline"><i class="fas fa-stream mr-2"></i>Sequências, Séries e Progressões</a></li>
+            </ul>
+        </section>
+        
+        <section class="mb-12 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold text-slate-800 mb-4">
+                <i class="fas fa-brain mr-2"></i> Áreas Principais
+            </h2>
+        
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <a href="#aritmetica" class="bg-yellow-50 p-6 rounded-lg hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-yellow-800 mb-2">
+                        <i class="fas fa-divide mr-2"></i>Aritmética
+                    </h3>
+                    <p class="text-sm text-slate-600">Operações Básicas • Propriedades dos Números • Frações</p>
+                </a>
+        
+                <!-- Card 2 -->
+                <a href="#algebra" class="bg-blue-50 p-6 rounded-lg hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-blue-800 mb-2">
+                        <i class="fas fa-cube mr-2"></i>Álgebra
+                    </h3>
+                    <p class="text-sm text-slate-600">Equações • Polinômios • Sistemas Lineares</p>
+                </a>
+        
+                <!-- Card 3 -->
+                <a href="#geometria" class="bg-green-50 p-6 rounded-lg hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-green-800 mb-2">
+                        <i class="fas fa-drafting-compass mr-2"></i>Geometria
+                    </h3>
+                    <p class="text-sm text-slate-600">Figuras Planas • Sólidos • Teoremas Clássicos</p>
+                </a>
+        
+                <!-- Card 4 -->
+                <a href="#probabilidade" class="bg-pink-50 p-6 rounded-lg hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-pink-800 mb-2">
+                        <i class="fas fa-dice mr-2"></i>Probabilidade
+                    </h3>
+                    <p class="text-sm text-slate-600">Eventos • Distribuições • Modelos Probabilísticos</p>
+                </a>
+        
+                <!-- Card 5 -->
+                <a href="#estatistica" class="bg-purple-50 p-6 rounded-lg hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-purple-800 mb-2">
+                        <i class="fas fa-chart-pie mr-2"></i>Estatística
+                    </h3>
+                    <p class="text-sm text-slate-600">Análise de Dados • Médias • Desvios Padrão</p>
+                </a>
+        
+                <!-- Card 6 -->
+                <a href="#funcoes" class="bg-indigo-50 p-6 rounded-lg hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-indigo-800 mb-2">
+                        <i class="fas fa-project-diagram mr-2"></i>Funções
+                    </h3>
+                    <p class="text-sm text-slate-600">Domínio • Imagem • Tipos de Funções</p>
+                </a>
+        
+                <!-- Card 7 -->
+                <a href="#calculo" class="bg-red-50 p-6 rounded-lg hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-red-800 mb-2">
+                        <i class="fas fa-square-root-alt mr-2"></i>Cálculo
+                    </h3>
+                    <p class="text-sm text-slate-600">Limites • Derivadas • Integrais</p>
+                </a>
+
+                <!-- Card 8 -->
+                <a href="#calculo-avancado" class="bg-blue-50 p-6 rounded-lg hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-blue-800 mb-2">
+                        <i class="fas fa-chart-line mr-2"></i>Cálculo Avançado
+                    </h3>
+                    <p class="text-sm text-slate-600">Análise Real • Equações Diferenciais • Cálculo Vetorial</p>
+                </a>
+
+            
+                <!-- Card 9 -->
+                <a href="#matematica-aplicada" class="bg-purple-50 p-6 rounded-lg hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-purple-800 mb-2">
+                        <i class="fas fa-microchip mr-2"></i>Matemática Aplicada
+                    </h3>
+                    <p class="text-sm text-slate-600">Métodos Numéricos • Otimização • Modelagem Matemática</p>
+                </a>
+            </div>
+        </section>
+        
+        <!-- Seção Física -->
+        <section id="fisica" class="mb-12">
+            <h2 class="text-3xl font-bold text-slate-800 mb-6 border-l-4 border-blue-500 pl-4">
+                <i class="fas fa-atom mr-2"></i>Física Geral e Experimental
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Movimento Unidimensional -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Movimento Unidimensional</h3>
+                    <div class="space-y-3">
+                        <div class="bg-blue-50 rounded-lg">
+                            <p class="font-mono text-sm">v(t) = v₀ + at</p>
+                            <p class="text-sm text-gray-600 mt-1">Equação da velocidade</p>
+                        </div>
+                        
+                        <details class="group">
+                            <summary class="cursor-pointer font-medium text-gray-700">
+                                Implementação Python
+                            </summary>
+                            <pre class="mt-2 bg-gray-800 text-gray-100 rounded-lg"><code class="python">
+def movimento_unidimensional(v0, a, t):
+    return v0 + a * t
+                            </code></pre>
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Leis de Newton -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Leis de Newton</h3>
+                    <div class="space-y-3">
+                        <div class="bg-blue-50 rounded-lg">
+                            <p class="font-mono text-sm">F = m · a</p>
+                            <p class="text-sm text-gray-600 mt-1">Segunda Lei de Newton</p>
+                        </div>
+                        
+                        <details class="group">
+                            <summary class="cursor-pointer font-medium text-gray-700">
+                                Simulação de Força Resultante
+                            </summary>
+                            <pre class="mt-2 bg-gray-800 text-gray-100 rounded-lg"><code class="python">
+import numpy as np
+
+def calcular_forca(massa, aceleracao):
+    return massa * aceleracao
+
+# Exemplo de uso
+m = 5.0  # kg
+a = 9.8  # m/s²
+print(f"Força resultante: {calcular_forca(m, a)} N")
+                            </code></pre>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sequências e Séries -->
+        <section id="sequencias" class="mb-12">
+            <h2 class="text-3xl font-bold text-slate-800 mb-6 border-l-4 border-green-500 pl-4">
+                <i class="fas fa-infinity mr-2"></i>Sequências e Séries
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Fibonacci -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-green-600 mb-4">Sequência de Fibonacci</h3>
+                    <div class="space-y-3">
+                        <div class="bg-green-50 rounded-lg">
+                            <p class="font-mono text-sm">Fₙ = Fₙ₋₁ + Fₙ₋₂</p>
+                            <p class="text-sm text-gray-600 mt-1">Definição recursiva</p>
+                        </div>
+                        
+                        <details class="group">
+                            <summary class="cursor-pointer font-medium text-gray-700">
+                                Implementação com Memoization
+                            </summary>
+                            <pre class="mt-2 bg-gray-800 text-gray-100 rounded-lg"><code class="python">
+from functools import lru_cache
+
+@lru_cache(maxsize=None)
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+                            </code></pre>
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Séries de Taylor -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-green-600 mb-4">Série de Taylor</h3>
+                    <div class="space-y-3">
+                        <div class="bg-green-50 rounded-lg">
+                            <p class="font-mono text-sm">eˣ = Σ xⁿ/n!</p>
+                            <p class="text-sm text-gray-600 mt-1">Expansão para exponencial</p>
+                        </div>
+                        
+                        <details class="group">
+                            <summary class="cursor-pointer font-medium text-gray-700">
+                                Aproximação de eˣ
+                            </summary>
+                            <pre class="mt-2 bg-gray-800 text-gray-100 rounded-lg"><code class="python">
+def exp_taylor(x, n_terms=10):
+    approximation = 0.0
+    for n in range(n_terms):
+        approximation += x**n / factorial(n)
+    return approximation
+                            </code></pre>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Cálculo -->
+        <section id="calculo" class="mb-12">
+            <h2 class="text-3xl font-bold text-slate-800 mb-6 border-l-4 border-purple-500 pl-4">
+                <i class="fas fa-calculator mr-2"></i>Cálculo Diferencial e Integral
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Derivadas -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-purple-600 mb-4">Técnicas de Derivação</h3>
+                    <div class="space-y-3">
+                        <div class="bg-purple-50 rounded-lg">
+                            <p class="font-mono text-sm">d/dx [f(g(x))] = f'(g(x))·g'(x)</p>
+                            <p class="text-sm text-gray-600 mt-1">Regra da Cadeia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Integrais -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-purple-600 mb-4">Métodos de Integração</h3>
+                    <div class="space-y-3">
+                        <div class="bg-purple-50 rounded-lg">
+                            <p class="font-mono text-sm">∫ u dv = uv - ∫ v du</p>
+                            <p class="text-sm text-gray-600 mt-1">Integração por Partes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Grade Curricular -->
+        <section class="mb-12 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold text-slate-800 mb-4">
+                <i class="fas fa-graduation-cap mr-2"></i>Grade Curricular
+            </h2>
+
+            <div class="grid md:grid-cols-6 gap-4 text-center">
+                <!-- Período 1 -->
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <h4 class="font-semibold text-blue-800">1º Período</h4>
+                    <ul class="mt-2 text-sm text-slate-600">
+                        <li>Cálculo I</li>
+                        <li>Álgebra Linear</li>
+                        <li>Programação I</li>
+                    </ul>
+                </div>
+
+                <!-- Período 2 -->
+                <div class="bg-emerald-50 p-4 rounded-lg">
+                    <h4 class="font-semibold text-emerald-800">2º Período</h4>
+                    <ul class="mt-2 text-sm text-slate-600">
+                        <li>Cálculo II</li>
+                        <li>Física Matemática</li>
+                        <li>Estatística</li>
+                    </ul>
+                </div>
+
+                <!-- Período 3 -->
+                <div class="bg-purple-50 p-4 rounded-lg">
+                    <h4 class="font-semibold text-purple-800">3º Período</h4>
+                    <ul class="mt-2 text-sm text-slate-600">
+                        <li>Análise Real</li>
+                        <li>Equações Diferenciais</li>
+                        <li>Métodos Numéricos</li>
+                    </ul>
+                </div>
+
+                <!-- Período 4 -->
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <h4 class="font-semibold text-blue-800">4º Período</h4>
+                    <ul class="mt-2 text-sm text-slate-600">
+                        <li>Álgebra Abstrata</li>
+                        <li>Otimização</li>
+                        <li>TCC</li>
+                    </ul>
+                </div>
+                <div class="bg-emerald-50 p-4 rounded-lg">
+                    <h4 class="font-semibold text-emerald-800">5º Período</h4>
+                    <ul class="mt-2 text-sm text-slate-600">
+                        <li>Álgebra Abstrata</li>
+                        <li>Otimização</li>
+                        <li>TCC</li>
+                    </ul>
+                </div>
+                <div class="bg-purple-50 p-4 rounded-lg">
+                    <h4 class="font-semibold text-purple-800">6º Período</h4>
+                    <ul class="mt-2 text-sm text-slate-600">
+                        <li>Álgebra Abstrata</li>
+                        <li>Otimização</li>
+                        <li>TCC</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+      
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

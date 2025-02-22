@@ -1,26 +1,14 @@
 # magic-math
 
-Useful Math functions Python library
+Anotações sobre minha graduação em matemática e uma biblioteca Python de funções matemáticas úteis
 
-## Run tests
-
+## Executar Testes
 
     pytest -v
 
+# Matemática
 
-
-## TODO
-
-- [X] Map functions necessary for Physics
-- [ ] Map functions necessary for Sequences
-- [ ] Map functions necessary for Series
-- [ ] Map functions necessary for Progressions
-- [ ] Map functions necessary for Number theory
-- [ ] Map functions necessary for Probability
-- [ ] Map functions necessary for Statistics
-
-
-## Physics
+## Física geral e experimental
 
 
 **Movimento unidimensional**:
@@ -175,14 +163,81 @@ Useful Math functions Python library
 
 
 
-## Sequences
+## Sequências, séries e progressões
 
-## Series
+**Definição Recursiva da Sequência de Fibonacci**
 
-## Progressions
+**Número de Ouro (Φ)**
 
-## Number theory
+**Propriedades do Número de Ouro**
 
-## Probability
+**Fórmula de Binet**
 
-## Statistics
+**Convergência de Razões na Sequência de Fibonacci**
+
+**Sequência dos Números Triangulares**
+
+**Lei de Formação de Progressão Aritmética**
+
+**Lei de Formação de Progressão Geométrica**
+
+**Teorema do Confronto para Sequências**
+
+**Critérios de Divergência de Sequências**
+
+**Definição de Série Numérica**
+
+**Soma de Séries Infinitas**
+
+**Séries Geométricas**
+
+**Séries Harmônicas**
+
+**Teste da Comparação**
+
+**Teste da Razão**
+
+**Teste da Raiz**
+
+**Convergência Condicional e Absoluta**
+
+**Séries Alternadas**
+
+**Teorema da Série Alternada (Critério de Leibniz)**
+
+**Série de Taylor**
+
+**Série de Maclaurin**
+
+**Série de Fourier**
+
+**Série Geométrica**
+
+**Progressão Aritmética (PA)**
+
+**Progressão Geométrica (PG)**
+
+**Equação para calcular o termo geral de uma PA**
+
+**Equação para calcular a soma dos termos de uma PA**
+
+**Equação para calcular o termo geral de uma PG**
+
+**Equação para calcular a soma dos termos de uma PG (finita e infinita)**
+
+**Equações envolvendo convergência de progressões**
+
+
+## Probabilidade e Estatística
+
+## Teoria dos Números Aritmética
+
+## Cálculo Diferencial e Integral
+
+## Estruturas Algébricas
+
+## Cálculo Vetorial e Tensorial
+
+## Cálculo Numérico
+
+## Teoria dos Grupos
